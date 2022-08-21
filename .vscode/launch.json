@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug xctest-comma",
+            "program": "${workspaceFolder:xctest-comma}/.build/debug/xctest-comma",
+            "args": [],
+            "cwd": "${workspaceFolder:xctest-comma}",
+            "preLaunchTask": "swift: Build Debug xctest-comma"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release xctest-comma",
+            "program": "${workspaceFolder:xctest-comma}/.build/release/xctest-comma",
+            "args": [],
+            "cwd": "${workspaceFolder:xctest-comma}",
+            "preLaunchTask": "swift: Build Release xctest-comma"
+        }
+    ]
+}
